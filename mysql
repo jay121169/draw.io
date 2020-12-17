@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T08:39:15.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="dKkKOvm8eGZgrKZ_GJss" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T08:48:28.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="T9RpY2FKHQM9eP0hDOlE" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
-    <mxGraphModel dx="1490" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-37" value="线程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="297.75" width="64" height="44.5" as="geometry" />
+          <mxGeometry x="622" y="311" width="64" height="43.25" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-41" target="LBySf31cazaSfti_-Op1-44">
           <mxGeometry relative="1" as="geometry" />
@@ -87,38 +87,38 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-41" value="SQL接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="732" y="307" width="109" height="33" as="geometry" />
+          <mxGeometry x="736" y="316.13" width="109" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-48" value="&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;最优查询路径&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-44" target="LBySf31cazaSfti_-Op1-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-44" value="SQL解析器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725.5" y="384.5" width="122" height="38.5" as="geometry" />
+          <mxGeometry x="732.5" y="400" width="116" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-50" value="执行计划" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#dae8fc;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-47" target="LBySf31cazaSfti_-Op1-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-47" value="查询优化器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725.5" y="467" width="122" height="38.5" as="geometry" />
+          <mxGeometry x="729.5" y="478" width="122" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-54" value="&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;调用接口，执行sql语句&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-49" target="LBySf31cazaSfti_-Op1-61">
           <mxGeometry x="-0.2402" relative="1" as="geometry">
             <mxPoint x="619.906" y="675.192" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="616" y="594" />
-              <mxPoint x="616" y="594" />
+              <mxPoint x="591" y="584" />
+              <mxPoint x="591" y="584" />
             </Array>
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-49" value="执行器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="469" width="122" height="38.5" as="geometry" />
+          <mxGeometry x="530" y="478" width="122" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-55" value="内存" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="492" y="651.5" width="90" height="38" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-56" value="磁盘" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="626" y="659" width="90" height="38" as="geometry" />
+          <mxGeometry x="686" y="654" width="90" height="38" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-14" target="LBySf31cazaSfti_-Op1-17">
           <mxGeometry relative="1" as="geometry" />
@@ -135,6 +135,12 @@
           <mxGeometry x="-0.2824" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-63" value="InnoDB 存储引擎" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="166" y="864" width="551" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-64" value="Buffer&amp;nbsp;Pool缓冲池" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="263" y="977" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
