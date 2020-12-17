@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T07:01:14.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="oex2jHCZ5fDNe88ArVoE" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T07:10:09.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="dNXTQPEpFpeR9WcpbgJ7" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="LBySf31cazaSfti_-Op1-48" value="最优查询路径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-44" target="LBySf31cazaSfti_-Op1-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-44" value="查询解析器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LBySf31cazaSfti_-Op1-44" value="SQL解析器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="584" y="430" width="122" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-50" value="执行计划" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-47" target="LBySf31cazaSfti_-Op1-49">
