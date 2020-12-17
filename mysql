@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T06:56:42.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="FuqfJrNrJJ8f7w4jgBEh" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T07:01:14.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="oex2jHCZ5fDNe88ArVoE" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="LBySf31cazaSfti_-Op1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-18" target="LBySf31cazaSfti_-Op1-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-40" value="获取sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-39">
+        <mxCell id="LBySf31cazaSfti_-Op1-40" value="获取sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fad7ac;" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-39">
           <mxGeometry x="0.3662" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -80,7 +80,7 @@
         <mxCell id="LBySf31cazaSfti_-Op1-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-37" target="LBySf31cazaSfti_-Op1-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-43" value="sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-42">
+        <mxCell id="LBySf31cazaSfti_-Op1-43" value="sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fad7ac;" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-42">
           <mxGeometry x="0.1443" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -91,7 +91,7 @@
         <mxCell id="LBySf31cazaSfti_-Op1-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-41" target="LBySf31cazaSfti_-Op1-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-46" value="解析sql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-45">
+        <mxCell id="LBySf31cazaSfti_-Op1-46" value="解析sql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fad7ac;" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-45">
           <mxGeometry x="-0.4297" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -99,23 +99,26 @@
         <mxCell id="LBySf31cazaSfti_-Op1-41" value="SQL接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="360" width="109" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-48" value="最优查询路径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-44" target="LBySf31cazaSfti_-Op1-47">
+        <mxCell id="LBySf31cazaSfti_-Op1-48" value="最优查询路径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-44" target="LBySf31cazaSfti_-Op1-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-44" value="查询解析器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="584" y="430" width="122" height="38.5" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-50" value="执行计划" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-47" target="LBySf31cazaSfti_-Op1-49">
+        <mxCell id="LBySf31cazaSfti_-Op1-50" value="执行计划" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-47" target="LBySf31cazaSfti_-Op1-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-47" value="查询优化器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="506" width="122" height="38.5" as="geometry" />
         </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-54" value="调用接口，执行sql语句" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.709;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#fad7ac;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-49" target="LBySf31cazaSfti_-Op1-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-49" value="执行器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="582" width="122" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-51" value="存储引擎" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="440" y="661" width="305" height="102" as="geometry" />
+          <mxGeometry x="442" y="682" width="295" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
