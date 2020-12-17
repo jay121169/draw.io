@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T04:37:13.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="UHDkiKvekkLrZNiS-CSd" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T06:08:24.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="9z8McP-JQaV3xPhBj7wi" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LBySf31cazaSfti_-Op1-2" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="450" y="155" width="360" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-3" value="tomcat" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="30" y="158.5" width="280" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-11" value="数据库连接池" style="whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="200" y="267.5" width="100" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-14" value="连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="315.25" width="76" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-15" value="连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="360" width="76" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-16" value="连接池" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="480" y="277.5" width="100" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-17" value="连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="311.5" width="76" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-18" target="LBySf31cazaSfti_-Op1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-18" value="连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="360" width="76" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-8" value="mysql驱动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="273.5" width="65" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-14" target="LBySf31cazaSfti_-Op1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-24" value="执行sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-22">
+          <mxGeometry x="-0.1982" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-15" target="LBySf31cazaSfti_-Op1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-27" value="执行sql语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBySf31cazaSfti_-Op1-23">
+          <mxGeometry x="-0.2824" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-28" value="线程池" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="50" y="268" width="110" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-30" target="LBySf31cazaSfti_-Op1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-30" value="线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="311.5" width="76" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBySf31cazaSfti_-Op1-31" target="LBySf31cazaSfti_-Op1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-31" value="线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="360" width="76" height="27" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
