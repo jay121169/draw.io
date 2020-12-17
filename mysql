@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T09:02:41.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="JQUIuE8sjtpjREiYqpUG" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T09:06:40.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="giOEgHtiAQerHmI471Ie" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1288" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,19 +140,22 @@
           <mxGeometry x="166" y="864" width="551" height="124" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-64" value="Buffer&amp;nbsp;Pool缓冲池" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="377" y="900" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-65" value="磁盘文件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="377" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-66" value="undo&amp;nbsp;log" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="LBySf31cazaSfti_-Op1-66" value="undo&amp;nbsp;log文件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="205" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-67" value="redo&amp;nbsp;log" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="LBySf31cazaSfti_-Op1-67" value="redo&amp;nbsp;log文件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="549" y="1042" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-72" value="redo&amp;nbsp;log&amp;nbsp;buffer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="547" y="896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LBySf31cazaSfti_-Op1-73" value="bin log文件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="709" y="1042" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
