@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T14:56:58.056Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="-vt9yHvvX7sPGlwVy1cj" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T14:58:20.981Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="HlaDzP-WUnIkeW7rgOx0" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1526" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EgmQO14_XBG5iypDIMuC-7" value="磁盘文件" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="162" y="1727" width="361" height="232" as="geometry" />
+          <mxGeometry x="134" y="1728" width="628" height="207" as="geometry" />
         </mxCell>
         <mxCell id="EgmQO14_XBG5iypDIMuC-8" value="数据页（16KB）" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="358.5" y="1858.5" width="131" height="65" as="geometry" />
@@ -381,18 +381,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wKw5xPDbuLIPoiAJoEyw-16" value="数据页缓存哈希表" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="736" y="1873" width="231" height="145" as="geometry" />
-        </mxCell>
-        <mxCell id="wKw5xPDbuLIPoiAJoEyw-17" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="752" y="1933" width="195" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="wKw5xPDbuLIPoiAJoEyw-19" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="754" y="1899" width="195" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="wKw5xPDbuLIPoiAJoEyw-20" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="754" y="1967" width="195" height="17" as="geometry" />
-        </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wKw5xPDbuLIPoiAJoEyw-21" target="wKw5xPDbuLIPoiAJoEyw-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -403,6 +391,18 @@
         </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-21" value="free链表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="43" y="1631" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-24" value="数据页缓存哈希表" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1759.5" width="231" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-25" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521" y="1819.5" width="195" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-26" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="1785.5" width="195" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-27" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="1853.5" width="195" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
