@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T08:27:23.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="zJT3x4H4jcdPzPQgjmdb" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T09:56:04.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="nKulSNahvq2idjGrXkWK" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1438" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,17 +304,39 @@
         <mxCell id="NVrvbhRGusbfxtpgDofu-13" value="1行数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="394" y="1796" width="86" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="NVrvbhRGusbfxtpgDofu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVrvbhRGusbfxtpgDofu-14" target="NVrvbhRGusbfxtpgDofu-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="1625" />
+              <mxPoint x="529" y="1625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NVrvbhRGusbfxtpgDofu-14" value="描述文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="292" y="1534" width="78" height="71" as="geometry" />
+          <mxGeometry x="268" y="1531.5" width="78" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="NVrvbhRGusbfxtpgDofu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVrvbhRGusbfxtpgDofu-15" target="NVrvbhRGusbfxtpgDofu-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="1514" />
+              <mxPoint x="438" y="1514" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NVrvbhRGusbfxtpgDofu-15" value="描述文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182" y="1531.5" width="78" height="71" as="geometry" />
         </mxCell>
         <mxCell id="NVrvbhRGusbfxtpgDofu-16" value="描述文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="391" y="1531.5" width="78" height="71" as="geometry" />
+          <mxGeometry x="399" y="1534" width="78" height="71" as="geometry" />
         </mxCell>
         <mxCell id="NVrvbhRGusbfxtpgDofu-17" value="描述文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1534" width="78" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="NVrvbhRGusbfxtpgDofu-18" value="j加载数据页到缓冲池" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVrvbhRGusbfxtpgDofu-1" target="EgmQO14_XBG5iypDIMuC-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579" y="1722" as="sourcePoint" />
+            <mxPoint x="629" y="1672" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
