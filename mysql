@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T14:03:43.016Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="F7EiFhQPsCij31ZUxJKg" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T14:06:09.892Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="510IN_x4yqV80JoaBHQx" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1526" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -399,8 +399,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wKw5xPDbuLIPoiAJoEyw-16" value="数据页缓存哈希表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-81" y="1564" width="120" height="60" as="geometry" />
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-16" value="数据页缓存哈希表" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="1742" width="231" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-17" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-99" y="1802" width="195" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-19" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="1768" width="195" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-20" value="表空间号+数据页号 = 缓存页地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="1836" width="195" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
