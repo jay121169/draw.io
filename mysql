@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T15:11:36.092Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="DroLq4pxCfWEdRYOL9dB" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-19T15:37:46.322Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="pfWyL1ZB-uTkJSc6c6xZ" version="14.0.4" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1526" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,7 +263,7 @@
           <mxGeometry x="-65" y="1460" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EgmQO14_XBG5iypDIMuC-6" value="缓冲池" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="146.5" y="1501" width="418" height="130" as="geometry" />
+          <mxGeometry x="146.5" y="1501" width="485.5" height="133" as="geometry" />
         </mxCell>
         <mxCell id="EgmQO14_XBG5iypDIMuC-21" value="加载数据页到缓冲池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EgmQO14_XBG5iypDIMuC-7" target="EgmQO14_XBG5iypDIMuC-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -338,10 +338,10 @@
           <mxGeometry x="279" y="1537" width="53" height="58" as="geometry" />
         </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-4" value="缓存页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="383" y="1537" width="53" height="58" as="geometry" />
+          <mxGeometry x="430" y="1537" width="53" height="58" as="geometry" />
         </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-5" value="缓存页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="471.5" y="1537" width="53" height="58" as="geometry" />
+          <mxGeometry x="500" y="1537" width="53" height="58" as="geometry" />
         </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="EgmQO14_XBG5iypDIMuC-23" target="wKw5xPDbuLIPoiAJoEyw-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -442,6 +442,9 @@
         </mxCell>
         <mxCell id="wKw5xPDbuLIPoiAJoEyw-29" value="基础节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="177" y="1444" width="84.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="wKw5xPDbuLIPoiAJoEyw-37" value="缓存页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564.5" y="1537" width="53" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
