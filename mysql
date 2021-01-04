@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T13:09:32.837Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EH1y_Q1Hr1KaGrDTz6z6" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T13:10:21.927Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zbGGam3SJMV9ObG32t3t" version="14.1.8" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1526" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,6 +667,9 @@
         </mxCell>
         <mxCell id="3Uq1D3liV55kp68QxC_o-11" value="一组数据区" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="166.5" y="3320" width="211.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3Uq1D3liV55kp68QxC_o-12" value="表空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="106" y="2922" width="46" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
