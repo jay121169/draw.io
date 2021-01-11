@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T15:11:39.689Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Zz42e-_W-m4Xp2SzXfIp" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T15:12:07.884Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="m8XKt3z91YduRo3Swemg" version="14.1.9" type="github">
   <diagram id="Hbo9UtEjgYM2E_tJuIxB" name="第 1 页">
     <mxGraphModel dx="1388" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LBySf31cazaSfti_-Op1-73" value="bin log文件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="LBySf31cazaSfti_-Op1-73" value="&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;bin log文件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="666" y="1194" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LBySf31cazaSfti_-Op1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#dae8fc;" parent="1" source="LBySf31cazaSfti_-Op1-74" target="LBySf31cazaSfti_-Op1-64" edge="1">
