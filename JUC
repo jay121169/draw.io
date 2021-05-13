@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T06:56:28.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="VMUVGxAIWIAYrdTCPsLO" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T06:57:07.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="sE-HTBAX6prrJDX2lI6Y" version="14.5.1" type="github">
   <diagram id="cpEWdei9aTAneUhOVeUI" name="第 1 页">
     <mxGraphModel dx="2062" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,19 +213,6 @@
         <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-61" value="线程XX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="747" y="1699" width="70" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjd6SlIk0MhJ1qcGM6SB-66" target="Gjd6SlIk0MhJ1qcGM6SB-54">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="420" y="1660" />
-              <mxPoint x="420" y="1720" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-75" value="释放锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-74">
-          <mxGeometry x="-0.3953" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjd6SlIk0MhJ1qcGM6SB-66" target="Gjd6SlIk0MhJ1qcGM6SB-84">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -235,6 +222,14 @@
         </mxCell>
         <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-77" value="唤醒等待队列head的线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-76">
           <mxGeometry x="-0.4763" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjd6SlIk0MhJ1qcGM6SB-66" target="Gjd6SlIk0MhJ1qcGM6SB-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-90" value="释放锁&lt;br&gt;state减1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-89">
+          <mxGeometry x="-0.4268" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
