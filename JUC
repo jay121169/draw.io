@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T09:38:57.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wn6Qu9H9Afc6__ziVy9f" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T09:44:52.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R02cxrImZTKJfgHnSc_l" version="14.5.1" type="github">
   <diagram id="cpEWdei9aTAneUhOVeUI" name="第 1 页">
     <mxGraphModel dx="2862" dy="1123" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,9 +92,13 @@
           <mxGeometry x="757" y="1169" width="70" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gjd6SlIk0MhJ1qcGM6SB-35" target="Gjd6SlIk0MhJ1qcGM6SB-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="482" y="1110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-39" value="1. state=0，cas设置state=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-38">
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-39" value="1. 加锁&lt;br&gt;当state=0，CAS设置state=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-38">
           <mxGeometry x="-0.3189" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -108,7 +112,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-41" value="2. 如果cas成功，设置加锁线程为线程1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-40">
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-41" value="2. 设置加锁线程&lt;br&gt;如果cas成功，设置加锁线程为线程1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-40">
           <mxGeometry x="-0.2478" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -119,7 +123,7 @@
         <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjd6SlIk0MhJ1qcGM6SB-37" target="Gjd6SlIk0MhJ1qcGM6SB-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-44" value="3. cas设置state=1失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-43">
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-44" value="3. 加锁失败&lt;br&gt;state != 0, 加锁失败&lt;br&gt;或 CAS设置state=1失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-43">
           <mxGeometry x="-0.6293" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -132,7 +136,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-50" value="4. cas失败后，判断加锁线程是否是自己，即自己是否已经加锁了&lt;br&gt;若是自己加锁的，则state = state + 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-45">
+        <mxCell id="Gjd6SlIk0MhJ1qcGM6SB-50" value="4. 判断是否已经持有锁&lt;br&gt;cas失败后，判断加锁线程是否是自己，若是自己加锁的，则state = state + 1&lt;br&gt;即可重入锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gjd6SlIk0MhJ1qcGM6SB-45">
           <mxGeometry x="0.1048" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
