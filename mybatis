@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T16:39:52.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="lppP3JcjIdsGHvPtNXcU" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-31T16:45:23.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="B2nptpIlYJo-IXDUa7Ni" version="14.8.5" type="github">
   <diagram id="qqdDPV3k0IFfoNc4fY2G" name="第 1 页">
     <mxGraphModel dx="1132" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,14 @@
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--65" value="&lt;span style=&quot;font-size: 13px&quot;&gt;加载mybatis-config.xml&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="VDio-9_5fHv9SAvGxyG--64">
           <mxGeometry x="-0.1143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="VDio-9_5fHv9SAvGxyG--62" target="VDio-9_5fHv9SAvGxyG--104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--107" value="SqlSessionFactoryBuild&lt;br&gt;#build&lt;br&gt;new &lt;br&gt;DefaultSqlSessionFactory(config)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="VDio-9_5fHv9SAvGxyG--105">
+          <mxGeometry x="0.0341" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -223,6 +231,9 @@
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--103" value="代理模式" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="466" y="1795" width="96" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--104" value="SqlSessionFactory" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="503" y="776" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
