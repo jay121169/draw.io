@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T10:29:33.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="k8CV6ppwIR54qS9qxJmd" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-31T10:31:16.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="tlOwGMkDBgl_8pdDuFSk" version="14.8.5" type="github">
   <diagram id="qqdDPV3k0IFfoNc4fY2G" name="第 1 页">
-    <mxGraphModel dx="1132" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,15 +56,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--51" value="«interface»&lt;br&gt;&lt;b&gt;Cache&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="280" width="110" height="50" as="geometry" />
+          <mxGeometry x="602" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--52" value="PerpetualCache" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="400" width="110" height="50" as="geometry" />
+          <mxGeometry x="602" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VDio-9_5fHv9SAvGxyG--52" target="VDio-9_5fHv9SAvGxyG--51">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="570" y="350" as="sourcePoint" />
-            <mxPoint x="730" y="350" as="targetPoint" />
+            <mxPoint x="562" y="350" as="sourcePoint" />
+            <mxPoint x="722" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--57" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VDio-9_5fHv9SAvGxyG--14" target="VDio-9_5fHv9SAvGxyG--52">
