@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T09:13:13.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jDqDVY_Al8MlaDX_i3fj" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T09:21:16.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3ks_oam7Xuxjzs_q8EeL" version="14.8.5" type="github">
   <diagram id="qqdDPV3k0IFfoNc4fY2G" name="第 1 页">
     <mxGraphModel dx="1132" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,11 +667,28 @@
         <mxCell id="VDio-9_5fHv9SAvGxyG--264" value="TypeHandler&lt;br&gt;#setParameter" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1388" y="1637" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="VDio-9_5fHv9SAvGxyG--267" target="VDio-9_5fHv9SAvGxyG--271">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--267" value="StatementHandler&lt;br&gt;#query" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1388" y="1735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDio-9_5fHv9SAvGxyG--270" value="创建ResultSetHandler时&lt;br&gt;拦截器对ResultSetHandler进行包装，返回代理类" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=13;size=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1534" y="1733" width="169" height="71" as="geometry" />
+          <mxGeometry x="1551" y="1748" width="169" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="VDio-9_5fHv9SAvGxyG--271" target="VDio-9_5fHv9SAvGxyG--273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--276" value="执行结果转化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="VDio-9_5fHv9SAvGxyG--274">
+          <mxGeometry x="-0.0385" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--271" value="调用JDBC执行方法" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1388" y="1843" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VDio-9_5fHv9SAvGxyG--273" value="ResultSetHandler&lt;br&gt;#handleResultSets" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1612" y="1843" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
